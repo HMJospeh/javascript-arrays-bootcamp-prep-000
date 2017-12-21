@@ -23,6 +23,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
   return array;
 }
-function accessElementInArray() {
-  
+function accessElementInArray(array, index) {
+var myArray=[1,2,3];
+console.log(myArray[2]);
 }
